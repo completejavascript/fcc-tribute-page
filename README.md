@@ -4,7 +4,7 @@ A freeCodeCamp project - build a tribute page - Brendan Eich
 
 # Preview
 
-  * [Tribute page: Brendan Eich](https://completejavascript.github.io/fcc-tribute-page/)
+  * [[FCC] Tribute page: Brendan Eich](https://completejavascript.github.io/fcc-tribute-page/)
 
 # Visit me
 
