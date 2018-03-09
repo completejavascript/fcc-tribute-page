@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>[FCC] Tribute Page: Brendan Eich</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="A tribute page for Brendan Eich - founder of JavaScript">
+    <meta name="keywords" content="fcc, freecodecamp, tribute page, brendan eich, javascript, boostrap, jquery, html5, css3">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" id="btn-toggle">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span> 
+          </button>
+          <a class="navbar-brand" href="#">[FCC] Tribute Page</a>
+        </div>
+        <div class="collapse navbar-collapse" id="my-navbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li id="menu-about" class="my-menu active"><a href="#about">About</a></li>
+              <li id="menu-career" class="my-menu"><a href="#career">Career</a></li>
+              <li id="menu-qoute" class="my-menu"><a href="#qoute">Qoutes</a></li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="container">
+      <!-- Header -->
+      <div class="row">
+        <div class="jumbotron" id="jumbotron-top">
+          <h1>Brendan Eich</h1>
+          <p>Founder & CEO, Brave Software. Created JavaScript. Co-founded Mozilla and Firefox.</p>
+        </div>
+      </div>
+
+      <!-- About -->
+      <div class="row" id="about">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <img id="img-profile" alt="Brendan Eich's Profile Picture" class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Brendan_Eich_Mozilla_Foundation_official_photo.jpg/480px-Brendan_Eich_Mozilla_Foundation_official_photo.jpg">
+        </div>
+        <div class="col-xs-12 col-sm-8 col-md-8 col-md-8">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Basic Info</h3>
+            </div>
+            <div class="panel-body">
+              <ul>
+                <li><strong>Born:</strong> July 4, 1961, <a href="https://en.wikipedia.org/wiki/Pittsburgh,_Pennsylvania">Pittsburgh, Pennsylvania</a>, U.S</li>
+                <li><strong>Residence:</strong> San Francisco Bay Area</li>
+                <li><strong>Education:</strong> <a href="https://en.wikipedia.org/wiki/University_of_Illinois_at_Urbana-Champaign">University of Illinois at Urbana-Champaign</a>, <a href="https://en.wikipedia.org/wiki/Santa_Clara_University">Santa Clara University</a></li>
+                <li><strong>Known for:</strong> JavaScript</li>
+                <li><strong>Website:</strong> <a href="https://brendaneich.com">brendaneich.com</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Social Links</h3>
+            </div>
+            <div class="panel-body">
+              <ul>
+                <li><strong>Github:</strong> <a href="https://github.com/BrendanEich">https://github.com/BrendanEich</a></li>
+                <li><strong>Twitter:</strong> <a href="https://twitter.com/brendaneich">https://twitter.com/brendaneich</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/brendaneich/">https://www.linkedin.com/in/brendaneich/</a></li>
+                <li><strong>Mastodon:</strong> <a href="https://mastodon.social/@BrendanEich">https://mastodon.social/@BrendanEich</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Career -->
+      <div class="row" id="career">
+        <div class="jumbotron">
+          <h2>Here are milestones of Brendan Eich's career:</h2>
+            <h3>Early life</h3>
+              <ul>
+                <li>Brendan Eich grew up in Palo Alto.</li>
+                <li>He attended Ellwood P. Cubberley High School, graduating in the class of 1979.</li>
+                <li>Eich received his bachelor's degree in mathematics and computer science at Santa Clara University.</li>
+                <li>He received his master's degree in 1985 from the University of Illinois at Urbana-Champaign.</li>
+              </ul>
+            <h3>Netscape and JavaScript</h3>
+              <ul>
+                <li>He started work at Netscape Communications Corporation in April 1995.</li>
+                <li>He completed the first version of a programming language in ten days in order to accommodate the Navigator 2.0 Beta release schedule.</li>
+                <li>The language was called Mocha, but renamed LiveScript in September 1995 and later JavaScript in the same month.</li>
+              </ul>
+            <h3>Mozilla</h3>
+              <ul>
+                <li>In early 1998, Eich co-founded the Mozilla project with Mitchell Baker, creating the website mozilla.org that was meant to manage open-source contributions to the Netscape source code. He served as Mozilla's chief architect.</li>
+                <li>AOL bought Netscape in 1999. After AOL shut down the Netscape browser unit in July 2003, Eich helped spin out the Mozilla Foundation.</li>
+                <li>In August 2005, Eich became CTO of the newly founded Mozilla Corporation, meant to be the Mozilla Foundation's for-profit arm.</li>
+                <li>Eich continued to "own" the Mozilla SpiderMonkey module, its JavaScript engine, until he passed on the ownership of it in 2011.</li>
+                <li>On March 24, 2014, Eich was promoted to CEO of Mozilla Corporation.</li>
+                <li>On April 3, 2014, Eich stepped down as CEO and resigned from working at Mozilla.</li>
+              </ul>
+            <h3>Brave Software</h3>
+              <ul>
+                <li>Eich is the CEO of Brave Software, an Internet security company which has raised $2.5 million in early funding from angel investors.</li>
+                <li>The company's co-founder is Brian Bondy, who worked on Firefox and Khan Academy. The company's employees include Marshall Rose, a network protocol engineer, and Yan Zhu, who worked on SecureDrop and Tor.</li>
+                <li>On January 20, 2016, the company released developer versions of its open-source Brave web browser, which blocked ads and trackers and included a micropayments system to offer users a choice between viewing selected ads or paying websites not to display them. A recent update added inbuilt integration of 1Password and LastPass password managers.</li>
+              </ul>
+            <h3>Basic Attention Token</h3>
+              <ul>
+                <li>Eich is also the founder of Basic Attention Token (BAT), a "utility token based on the Ethereum technology that can also be used as a unit of account between advertisers, publishers, and users in a new, blockchain-based digital advertising and services platform".</li>
+                <li>BAT launched its ICO on May 31, 2017 raising $35 million in just 30 seconds.</li>
+              </ul>
+
+            <p>If you have time, you should read more about Brendan Eich at <a href="https://en.wikipedia.org/wiki/Brendan_Eich">Wikipedia</a> (<small>and the <a href="https://en.wikipedia.org/wiki/File:Brendan_Eich_Mozilla_Foundation_official_photo.jpg">image</a> is licensed under the <a href="https://en.wikipedia.org/wiki/en:Creative_Commons">Creative Commons</a> <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">Attribution-Share Alike 3.0 Unported license</a></small>).</p>
+        </div>
+      </div>
+
+      <!-- Qoutes -->
+      <div class="row" id="qoute">
+        <h2 class="text-center" id="txt-qoute-title">Brendan Eich's qoutes</h2>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">List of qoutes:</h3>
+          </div>
+          <div class="panel-body">
+            <ol>
+              <li>Always bet on JavaScript.</li>
+              <li>If the web can be evolved to include the missing APIs and have better performance, [developers] won't need to go
+                beyond the web.</li>
+              <li>JS had to "look like Java" only less so, be Java’s dumb kid brother or boy-hostage sidekick. Plus, I had to be done
+                in ten days or something worse than JS would have happened.</li>
+              <li>We're adding a lot of fun features.</li>
+              <li>It's been over ten years, hard to believe. It was the Rodney Dangerfield of languages.</li>
+              <li>It's time to get back to innovating in the browser space.</li>
+              <li>Why the long freeze in JavaScript development? A lot of it had to do with the long freeze on browsers due to the
+                IE [Internet Explorer] takeover.</li>
+              <li>We're going to learn from Python. JavaScript is pretty close to Python.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="row" id="my-footer">
+        <p class="text-center">Written and coded by <a href="https://codepen.io/completejavascript/">Lam Pham</a>. Visit me on <a href="https://completejavascript.com/gioi-thieu/">Complete JavaScript</a>.</p>
+      </div>
+    </div>
+    <!-- Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

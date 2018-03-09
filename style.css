@@ -1,0 +1,43 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+	word-wrap: break-word;
+}
+
+.container .jumbotron {
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+
+#jumbotron-top{
+  padding-top: 70px; 
+}
+
+#about {
+  background-color: cadetblue;
+  padding-top: 15px;
+}
+
+#img-profile {
+  border: 10px solid white;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+#qoute {
+  background-color: cadetblue;
+  padding: 15px 30px;
+}
+
+#txt-qoute-title {
+  color: white;
+  padding-bottom: 15px;
+}
+
+#my-footer {
+  background-color: #eeeeee;
+  padding: 15px;
+}
